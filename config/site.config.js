@@ -10,7 +10,7 @@ module.exports = {
   userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'freyue@outlook.com',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
-  // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
+  // /public directory of your GitHub project (not your OneDrive folder!), 和 referenced here by its relative path to /public.
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
@@ -24,7 +24,7 @@ module.exports = {
   maxItems: 100,
 
   // [OPTIONAL] We use Google Fonts natively for font customisations.
-  // You can check and generate the required links and names at https://fonts.google.com.
+  // You can check 和 generate the required links 和 names at https://fonts.google.com.
   // googleFontSans - the sans serif font used in onedrive-cf-index-ng.
   googleFontSans: 'Inter',
   // googleFontMono - the monospace font used in onedrive-cf-index-ng.
@@ -33,8 +33,8 @@ module.exports = {
   googleFontLinks: ['https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
-  // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
-  footer:
+  // quotes - changing " to \". You can write anything here, 和 if you like badges, generate some with https://shields.io
+  <!--footer:
     'Powered by <a href="https://github.com/lyc8503/onedrive-cf-index-ng" target="_blank" rel="noopener noreferrer">onedrive-cf-index-ng</a>. Made with ❤ by lyc8503.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
@@ -44,18 +44,18 @@ module.exports = {
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:me@lyc8503.net',
 
-  // [OPTIONAL] This is an array of names and links for setting your social information and links.
-  // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
+  // [OPTIONAL] This is an array of names 和 links for setting your social information 和 links.
+  // In the latest update, all br和 icons inside font awesome is supported 和 the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
     {
       name: 'GitHub',
       link: 'https://github.com/lyc8503',
-    },
+    },-->
   ],
 
-  // This is a day.js-style datetime format string to format datetimes in the app. Ref to
+  // This is 1 天之前.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
-  // without timezone and replacing T with space.
+  // without timezone 和 replacing T with space.
   datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
 }
