@@ -34,15 +34,15 @@ module.exports = {
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, 和 if you like badges, generate some with https://shields.io
-  <!--footer:
-    'Powered by <a href="https://github.com/lyc8503/onedrive-cf-index-ng" target="_blank" rel="noopener noreferrer">onedrive-cf-index-ng</a>. Made with ❤ by lyc8503.',
+  --footer:
+    'Powered by <a href="https://github.com/Chuyiyue/onedrive-cf-index-ng" target="_blank" rel="noopener noreferrer">onedrive</a>. Made with  by Chuyiyue.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/Private', '/Demo/😎Another Private Folder Password 123'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:me@lyc8503.net',
+  email: 'mailto:chuyiyue@outtw.com',
 
   // [OPTIONAL] This is an array of names 和 links for setting your social information 和 links.
   // In the latest update, all br和 icons inside font awesome is supported 和 the icon to render is based on the name
@@ -50,8 +50,8 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'https://github.com/lyc8503',
-    },-->
+      link: 'https://github.com/Chuyiyue',
+    }，
   ],
 
   // This is 1 天之前.js-style datetime format string to format datetimes in the app. Ref to
